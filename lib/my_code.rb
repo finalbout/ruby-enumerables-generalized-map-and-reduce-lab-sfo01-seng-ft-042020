@@ -18,6 +18,6 @@ else
 end 
 
 while i > array.length do 
-  yield(sum, array[i])
+ sum =  yield(sum, array[i])
 
 end
